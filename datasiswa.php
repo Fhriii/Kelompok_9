@@ -32,7 +32,7 @@
     if ($result = mysqli_query($conn, $sql)) {
         if (mysqli_num_rows($result) > 0) {
             echo "<h1><span class='blue'></span>Data<span class='blue'></span> <span class='yellow'>Siswa</span></h1>";
-	     echo '<button style="margin-left:140px;background-color: red; border-radius:10px;"><a style="text-decoration:none;color:white"href="index.php">Keluar</a></button>';
+	     echo '<button style="margin-left:140px;background-color: red; border-radius:10px;"><a style="text-decoration:none;color:white"href="index.html">Keluar</a></button>';
 
             echo "<table class='container'>";
             echo "<thead>";
